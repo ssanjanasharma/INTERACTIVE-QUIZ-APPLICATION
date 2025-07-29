@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Quizopedia</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.jpg" type="image/png" />
+</head>
+<body>
+
+  <!-- Welcome Note-Style Popup -->
+  <div class="note-popup" id="welcomePopup">
+    <div class="note-card">
+      <img src="capy.jpg" alt="Avatar" class="avatar" />
+      <h3>Hey, quiz time with Cappy!</h3>
+      <p>Welcome to the Quizopedia!</p>
+      <button onclick="enterApp()">Yay, let’s go!</button>
+    </div>
+  </div>
+
+  <!-- Main content -->
+  <main class="main-content" id="homeScreen">
+    <div class="card-container">
+      <div class="card html" onclick="location.href='html-quiz.html'">
+        <div class="icon">🌐</div>
+        <div>HTML Quiz</div>
+      </div>
+      <div class="card css" onclick="location.href='css-quiz.html'">
+        <div class="icon">🎨</div>
+        <div>CSS Quiz</div>
+      </div>
+      <div class="card js" onclick="location.href='js-quiz.html'">
+        <div class="icon">📜</div>
+        <div>JavaScript Quiz</div>
+      </div>
+      <div class="card react" onclick="location.href='react-quiz.html'">
+        <div class="icon">⚛️</div>
+        <div>React Quiz</div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Built with love by Sanjana♡<br>
+    © 2025 Quizopedia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
